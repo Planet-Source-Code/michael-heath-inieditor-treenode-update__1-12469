@@ -1,0 +1,110 @@
+[Root]
+Most Recent Package=IniEditor v1.xx
+
+
+[Package|IniEditor v1.xx|Morefreeware's IniEditor]
+Icon1=IniEditor.exe
+Title1=IniEditor
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Readme.txt
+Title2=Read Me
+StartIn2=$(AppPath)
+Key2=Icon3
+
+[Package|IniEditor v1.xx|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=X:\HeathWare\Package\iniEditor
+
+[Package|IniEditor v1.xx|Configure DAO ISAMs]
+Applicable=No
+
+[Package|IniEditor v1.xx|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|IniEditor v1.xx|Files Found]
+
+[Package|IniEditor v1.xx|Files Released]
+
+[Package|IniEditor v1.xx|Missing Dependency Information]
+
+[Package|IniEditor v1.xx|Out-of-Date Dependency Information]
+
+[Package|IniEditor v1.xx|Files Added]
+x:\heathware\iniviewer\readme.txt=
+
+[Package|IniEditor v1.xx|Files Removed]
+c:\windows\system\msvbvm60.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\oleaut32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\olepro32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\asycfilt.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|IniEditor v1.xx|Files In Project]
+X:\HeathWare\IniViewer\Exe\IniEditor.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+X:\HeathWare\IniViewer\Readme.txt=Yes
+
+[Package|IniEditor v1.xx|Configure Registry Files]
+Applicable=No
+
+[Package|IniEditor v1.xx|Configure Remote Servers]
+Applicable=No
+
+[Package|IniEditor v1.xx|Install Locations]
+X:\HeathWare\IniViewer\Exe\IniEditor.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+X:\HeathWare\IniViewer\Readme.txt=$(AppPath)
+
+[Package|IniEditor v1.xx|Configure Shared Files]
+Applicable=Yes
+X:\HeathWare\IniViewer\Exe\IniEditor.exe=No
+X:\HeathWare\IniViewer\Readme.txt=No
+
+[Package|IniEditor v1.xx|Distribution]
+Type=single
+Size=
+Title=Morefreeware's IniEditor v1.xx
+
+[Package|IniEditor v1.xx|Package]
+PackageFolder=X:\HeathWare\Package\iniEditor
+ProjectFolder=X:\HeathWare\IniViewer
+ServerSideCab=
+File1=X:\HeathWare\Package\iniEditor\setup.exe
+File2=X:\HeathWare\Package\iniEditor\Setup.Lst
+File3=X:\HeathWare\Package\iniEditor\IniEditor.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|IniEditor v1.xx|IconGroups]
+Group0=Morefreeware
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|IniEditor v1.xx|Morefreeware]
+Icon1=IniEditor.exe
+Title1=IniEditor
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Readme.txt
+Title2=IniEditor Read Me
+StartIn2=$(AppPath)
+Key2=Icon3
